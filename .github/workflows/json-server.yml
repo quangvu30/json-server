@@ -14,4 +14,4 @@ jobs:
     
     steps:
     - run: npm i
-    - run: npm run start
+    - run: pm2 start npm --name "JsonServer" -- start
