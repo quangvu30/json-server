@@ -1,4 +1,54 @@
 {
-  "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
-  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }]
+  "contract": {
+    "status": 1,
+    "payload": {
+      "data": [
+        {
+          "_id": "645cbccfcaf468e6589fcbde",
+          "code": "OP-LCR-1",
+          "name": "Cà phê Robusta ICE 1",
+          "note": "",
+          "commodity": [
+            {
+              "_id": "645cbccfcaf468e6589fcbc3",
+              "code": "LCR1",
+              "name": "Cà phê Robusta ICE 1",
+              "item": [
+                {
+                  "_id": "645cbccecaf468e6589fcbba",
+                  "code": "LCR",
+                  "name": "Cà phê Robusta ICE"
+                }
+              ]
+            }
+          ],
+          "instrument": [
+            {
+              "_id": "645cbccfcaf468e6589fcbda",
+              "currencyUnit": "USD",
+              "contractUnit": "TON",
+              "priceListingUnit": 30000,
+              "contractVolume": 200,
+              "tickSize": 20,
+              "decimal": 3,
+              "dueMonths": "12,1,2,3,4,5",
+              "paymentMethod": "cash",
+              "typeOfOption": "null",
+              "firstTradingDay": "23",
+              "lastTradingDay": "30",
+              "firstNoticeDay": "1",
+              "lastNoticeDay": "29",
+              "firstDeliveryDay": "15",
+              "lastDeliveryDay": "29",
+              "enable": true,
+              "extend": "",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "totalPage": 1,
+      "rowCount": 1
+    }
+  }
 }
